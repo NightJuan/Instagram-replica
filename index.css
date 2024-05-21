@@ -7,17 +7,17 @@ color: white;
 background-color: black;
 }
 .header{
-background-color: rgb(27, 96, 119);
+padding-top: 2vh;
 width: 100%;
 height: 4vh;
 display: flex;
 justify-content: space-around;
-font-size: 13px;
 align-items: center;
 }
 .appName{
 width: 60vw;
 height: fit-content;
+font-size: 3vh;
 }
 .like{
   object-fit:contain;
@@ -25,25 +25,30 @@ height: fit-content;
 .like, .message{
   width: 5vh;
   height: 3vh;
-  background-color: white;
 }
 .profileBar{
-  background-color: lightcoral;
   width: 100%;
   height: 9vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.profile{
+.profile1,.profile2,.profile3,.profile4,.profile5{
   width: 8vh;
   height: 8vh;
   border-radius: 10vh;
+  border-width: 0px;
+  object-fit: cover;
   background-color: darkred;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  border-color: rgb(178, 50, 178), gold;
+  border-style:inset;
+}
+.profile1{
+  border-width: 1vh;
 }
 main{
   background-color: rgb(58, 33, 173);
