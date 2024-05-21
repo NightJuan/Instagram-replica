@@ -54,25 +54,36 @@ font-style: normal;
 }
 .profile1{
   border-width: .4vh;
-  border-image: linear-gradient(to top, purple, gold) 1/2vh;
+  border-block-color: gold;
+  border-inline-color: purple;
 }
 main{
-  background-color: rgb(58, 33, 173);
   height: 100vh;
-  margin: 2vw;
-  border-top-width: 1vw;
+  border-width: .2vw 0vh 0vh 0vh;
+  border-top-color: grey;
+  border-style: solid;
 }
 .profileHub{
-  background-color: darkorange;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   height: fit-content;
   vertical-align: middle;
+  margin: 1vh 0vh;
 }
 .profileImg, .more{
-  width: 6vh;
-  height: 6vh;
-  background-color: rgb(11, 135, 139);
+  width: 5vh;
+  height: 5vh;
+  border-radius: 6vw;
+  object-fit: cover;
+  margin: 0vw 1vh;
+}
+.more{
+  margin-left: 17vh;
+  object-fit: fill;
+  width: 2vh;
+  height: 2vh;
+  filter: invert(100%);
+  align-self: center;
 }
 .instName{
   display: flex;
@@ -80,8 +91,7 @@ main{
   width: 50vw;
   height: 6vh;
   height: fit-content;
-  font-size: 13px;
-  background-color: rgb(53, 167, 9);
+  font-size: 1.5vh;
   align-self: center;
 }
 .userName{
