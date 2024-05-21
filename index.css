@@ -19,9 +19,13 @@ align-items: center;
 width: 60vw;
 height: fit-content;
 }
+.like{
+  object-fit:contain;
+}
 .like, .message{
-  width: fit-content;
-  height: fit-content;
+  width: 5vh;
+  height: 3vh;
+  background-color: white;
 }
 .profileBar{
   background-color: lightcoral;
