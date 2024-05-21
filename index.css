@@ -112,8 +112,9 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50vw;
-  height: 30vw;
+  width: 95%;
+  height: 22vw;
+  font-size: 2.6vw;
 }
 .actionBar{
   width: 94vw;
@@ -143,5 +144,15 @@ main{
   filter: invert(100%);
 }
 .likeCount{
-
+  font-weight: 550;
+  font-size: 3vw;
+}
+.commentLine{
+  align-items: center;
+}
+.commentImg{
+  width: 6.2vw;
+  height: 6.2vw;
+  border-radius: 3vw;
+  object-fit:cover;
 }
