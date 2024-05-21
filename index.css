@@ -66,14 +66,14 @@ main{
   justify-content: left;
   height: fit-content;
   vertical-align: middle;
-  margin: 1vh 0vh;
+  margin: 2vw 0vh;
 }
 .profileImg, .more{
-  width: 5vh;
-  height: 5vh;
+  width: 9vw;
+  height: 9vw;
   border-radius: 6vw;
   object-fit: cover;
-  margin: 0vw 1vh;
+  margin: 0vw 2vw;
 }
 .more{
   margin-left: 17vh;
@@ -87,16 +87,16 @@ main{
   display: flex;
   flex-direction: column;
   width: 50vw;
-  height: 6vh;
+  height: 12vw;
   height: fit-content;
-  font-size: 1.5vh;
+  font-size: 2.7vw;
   align-self: center;
 }
 .userName{
   height: fit-content;
 }
 .vidContainer{
-  height: 80vh;
+  height: 154vw;
   width: 100%;
   background-color: gray;
   display: flex;
