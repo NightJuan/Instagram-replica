@@ -24,8 +24,8 @@ font-weight: 700;
 font-style: normal;
 }
 .like, .message{
-  width: 5vw;
-  height: 5vw;
+  width: 7vw;
+  height: 7vw;
   object-fit:contain;
 }
 .message{
@@ -106,4 +106,42 @@ main{
   width: fit-content;
   height: fit-content;
   align-self: center;
+}
+.functionBox{
+  padding: 4vw 0px 4vw 3.6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+  height: 30vw;
+}
+.likeBar{
+  align-items: center;
+  height: max-content;
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+}
+.actionBar{
+  width: 94vw;
+  height: 5vw;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.save{
+  margin: 0vw 3vw;
+  width: max-content;
+  height: 5vw;
+}
+.likeMain,.comment,.share,.save{
+  object-fit: cover;
+  width: max-content;
+  height: 5vw;
+}
+.share,.comment,.save{
+  filter: invert(100%);
+}
+.likeCount{
+
 }
