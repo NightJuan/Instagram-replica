@@ -17,14 +17,19 @@ align-items: center;
 .appName{
 width: 60vw;
 height: fit-content;
-font-size: 3vh;
-}
-.like{
-  object-fit:contain;
+font-size: 6vw;
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
 }
 .like, .message{
-  width: 5vh;
-  height: 3vh;
+  width: 5vw;
+  height: 5vw;
+  object-fit:contain;
+}
+.message{
+  filter: invert(100%);
 }
 .profileBar{
   width: 100%;
@@ -35,8 +40,8 @@ font-size: 3vh;
   padding: 1vh 0px;
 }
 .profile1,.profile2,.profile3,.profile4,.profile5{
-  width: 8vh;
-  height: 8vh;
+  width: 13vw;
+  height: 13vw;
   border-radius: 10vh;
   border-width: 0px;
   object-fit: cover;
@@ -45,17 +50,17 @@ font-size: 3vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border-color: rgb(178, 50, 178), gold;
-  border-style:inset;
+  border-style:solid;
 }
 .profile1{
-  border-width: 1vh;
+  border-width: .4vh;
+  border-image: linear-gradient(to top, purple, gold) 1/2vh;
 }
 main{
   background-color: rgb(58, 33, 173);
   height: 100vh;
   margin: 2vw;
-  border-radius: 2vh;
+  border-top-width: 1vw;
 }
 .profileHub{
   background-color: darkorange;
