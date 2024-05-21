@@ -115,13 +115,6 @@ main{
   width: 50vw;
   height: 30vw;
 }
-.likeBar{
-  align-items: center;
-  height: 100%;
-  display: flex;
-  width: 20vw;
-  justify-content: space-between;
-}
 .actionBar{
   width: 94vw;
   height: 5vw;
@@ -129,9 +122,16 @@ main{
   justify-content:space-between;
   align-items: center;
 }
+.likeBar{
+  align-items: center;
+  height: 100%;
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+}
 .save{
   margin: 0vw 3vw;
-  width: max-content;
+  width: 4.36vw;
   height: 5vw;
 }
 .likeMain,.comment,.share,.save{
