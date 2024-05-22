@@ -88,12 +88,15 @@ main{
   flex-direction: column;
   width: 50vw;
   height: 12vw;
-  height: fit-content;
-  font-size: 2.7vw;
   align-self: center;
 }
 .userName{
   height: fit-content;
+  font-size: 4vw;
+  font-weight: 550;
+}
+.userNameOA{
+  font-size: 3vw;
 }
 .vidContainer{
   height: 154vw;
@@ -102,11 +105,13 @@ main{
   display: flex;
   justify-content: space-around;
 }
+
 .vid{
   width: fit-content;
   height: fit-content;
   align-self: center;
 }
+
 .functionBox{
   padding: 5vw 0px 4vw 3.6vw;
   display: flex;
@@ -116,6 +121,7 @@ main{
   height: 22vw;
   font-size: 2.6vw;
 }
+
 .actionBar{
   width: 94vw;
   height: 5vw;
@@ -123,6 +129,7 @@ main{
   justify-content:space-between;
   align-items: center;
 }
+
 .likeBar{
   align-items: center;
   height: 100%;
@@ -130,30 +137,31 @@ main{
   width: 25vw;
   justify-content: space-between;
 }
+
 .save{
   margin: 0vw 3vw;
   width: 5.36vw;
   height: 6vw;
 }
-.likeMain,.comment,.share,.save{
+
+.likeMain,.commentLogo,.share,.save{
   object-fit: cover;
   width: 6.86;
   height: 6vw;
 }
-.share,.comment,.save{
+
+.share,.commentLogo,.save{
   filter: invert(100%);
 }
+
 .likeCount{
   font-weight: 550;
   font-size: 4vw;
   padding: 2vw 0vw;
 }
+.comment{
+  font-size: 3vw;
+}
 .commentLine{
   align-items: center;
-}
-.commentImg{
-  width: 6.2vw;
-  height: 6.2vw;
-  border-radius: 3vw;
-  object-fit:cover;
 }
