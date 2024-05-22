@@ -15,7 +15,7 @@ justify-content: space-around;
 align-items: center;
 }
 .appName{
-width: 60vw;
+width: 75vw;
 height: fit-content;
 font-size: 6vw;
 font-family: "Playfair Display", serif;
@@ -24,8 +24,8 @@ font-weight: 700;
 font-style: normal;
 }
 .like, .message{
-  width: 7vw;
-  height: 7vw;
+  width: 5vw;
+  height: 5vw;
   object-fit:contain;
 }
 .message{
@@ -164,4 +164,9 @@ main{
 }
 .commentLine{
   align-items: center;
+}
+.viewMore{
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5vw;
 }
