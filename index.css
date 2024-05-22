@@ -127,7 +127,7 @@ main{
   align-items: center;
   height: 100%;
   display: flex;
-  width: 29vw;
+  width: 25vw;
   justify-content: space-between;
 }
 .save{
