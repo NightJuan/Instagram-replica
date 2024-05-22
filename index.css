@@ -27,6 +27,7 @@ font-style: normal;
   width: 5vw;
   height: 5vw;
   object-fit:contain;
+  padding: 1.2vw 0vw 0px 0px;
 }
 .message{
   filter: invert(100%);
