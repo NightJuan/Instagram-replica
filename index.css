@@ -15,7 +15,7 @@ justify-content: space-around;
 align-items: center;
 }
 .appName{
-width: 75vw;
+width: 67vw;
 height: fit-content;
 font-size: 6vw;
 font-family: "Playfair Display", serif;
@@ -27,10 +27,11 @@ font-style: normal;
   width: 5vw;
   height: 5vw;
   object-fit:contain;
-  padding: 1.2vw 0vw 0px 0px;
+  padding-top: 1.2vw;
 }
 .message{
   filter: invert(100%);
+  padding-right: 3vw;
 }
 .profileBar{
   width: 100%;
