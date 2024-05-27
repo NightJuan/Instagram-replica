@@ -179,5 +179,6 @@ main{
 .viewMore{
   display: flex;
   flex-direction: column;
-  font-size: 2.5vw;
+  font-size: 3vw;
+  color: grey;
 }
