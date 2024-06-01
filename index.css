@@ -66,10 +66,21 @@ font-style: normal;
   object-fit: cover;
   border-style:solid;
   border-color: rgb(14, 14, 14);
+  transition: 1s;
 }
 .profile1{
   border-width: .9vw;
   border-color: rgb(255, 183, 0);
+  transition: 1s;
+}
+.profile1:active,.profile2:active,.profile3:active{
+  transition-duration: 1s;
+  width: 15rem;
+  height: 15rem;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
 }
 main{
   height: 180vw;
